@@ -44,7 +44,8 @@ Restricting direct access to some of the object's components, typically achieved
 
 ## Importance in Structuring Automation Frameworks and Scripts:
 
-Code Reuse & Maintenance: Using OOP concepts, common functionalities can be abstracted to parent/base classes and reused across multiple test cases or scripts. For example, a base test class can have setup and teardown methods.
+###### Code Reuse & Maintenance: 
+Using OOP concepts, common functionalities can be abstracted to parent/base classes and reused across multiple test cases or scripts. For example, a base test class can have setup and teardown methods.
 
 ###### **Modularity:** 
 With classes and objects, you can create modular and independent pieces of your automation framework. For instance, if you're employing the Page Object Model (POM), each web page can be modeled as a class.
