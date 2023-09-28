@@ -1,6 +1,6 @@
 # Object-Oriented Programming (OOP) Basics:
 
-## Class and objects: 
+## [Class and objects:](Classes.md) 
 
 A blueprint for creating objects. Contains variables (attributes) and methods (functions).
 Object: An instance of a class.
@@ -21,14 +21,14 @@ myCar.drive();  // Outputs: "Driving a Toyota"
 ```
 
 
-## Inheritance:
+## [Inheritance:](Inheritance.md)
 
 Enables a new class to inherit properties and behaviors (methods) from an existing class.
 Promotes code reuse.
 Java uses the extends keyword.
 Example: If you have a base class Vehicle, a Car class can inherit from it.
 
-## Polymorphism:
+## [Polymorphism:](Polymorphism.md)
 
 Allows objects to be treated as instances of their parent class rather than their actual type.
 Example: Overriding (Method overriding allows subclass to provide a specific implementation of a method already provided by its parent class) and overloading (Overloading allows different methods to have the same name, but different parameters).
@@ -37,7 +37,7 @@ Abstraction:
 It is the concept of hiding complex implementation details and showing only the essential features.
 In Java, this can be achieved using abstract classes and interfaces.
 
-## Encapsulation:
+## [Encapsulation:](Encapsulation.md)
 
 Bundling the data (attributes) and the methods (functions) that operate on the data into a single unit or class.
 Restricting direct access to some of the object's components, typically achieved using private access modifiers and public getters and setters.
