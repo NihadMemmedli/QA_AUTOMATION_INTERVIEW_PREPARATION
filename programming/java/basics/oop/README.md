@@ -46,14 +46,20 @@ Restricting direct access to some of the object's components, typically achieved
 
 Code Reuse & Maintenance: Using OOP concepts, common functionalities can be abstracted to parent/base classes and reused across multiple test cases or scripts. For example, a base test class can have setup and teardown methods.
 
-**Modularity:** With classes and objects, you can create modular and independent pieces of your automation framework. For instance, if you're employing the Page Object Model (POM), each web page can be modeled as a class.
+###### **Modularity:** 
+With classes and objects, you can create modular and independent pieces of your automation framework. For instance, if you're employing the Page Object Model (POM), each web page can be modeled as a class.
 
-**Scalability:** As your application grows, automation needs will also expand. OOP concepts like inheritance allow for easy scalability. New tests or functionalities can be added as subclasses without disturbing existing code.
+###### **Scalability:** 
+As your application grows, automation needs will also expand. OOP concepts like inheritance allow for easy scalability. New tests or functionalities can be added as subclasses without disturbing existing code.
 
-**Readability:** OOP results in a clear and organized structure. Anyone joining the team or reviewing the code can quickly understand the framework's design and flow.
+###### **Readability:** 
+OOP results in a clear and organized structure. Anyone joining the team or reviewing the code can quickly understand the framework's design and flow.
 
-**Robustness:** Encapsulation ensures that the internal state of objects is shielded from outside interference, leading to fewer unforeseen issues.
+###### **Robustness:** 
+Encapsulation ensures that the internal state of objects is shielded from outside interference, leading to fewer unforeseen issues.
 
-**Flexibility:** Polymorphism allows automation engineers to use the same interface for different data types, making scripts flexible and easy to extend.
+###### **Flexibility:** 
+Polymorphism allows automation engineers to use the same interface for different data types, making scripts flexible and easy to extend.
 
-**Data Protection:** Encapsulation protects data from unintended changes and misuse.
+###### **Data Protection:** 
+Encapsulation protects data from unintended changes and misuse.
